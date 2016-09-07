@@ -366,6 +366,8 @@
 		96FCC53A1C186426007BBFE1 /* ADJResponseData.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FCC5361C186426007BBFE1 /* ADJResponseData.h */; };
 		96FCC53B1C186426007BBFE1 /* ADJResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FCC5371C186426007BBFE1 /* ADJResponseData.m */; };
 		96FDD75E1C566C38009C402E /* NSURLSession+NSURLDataWithRequestMocking.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FDD75D1C566C38009C402E /* NSURLSession+NSURLDataWithRequestMocking.m */; };
+		9D0B5C682929897B007009C1 /* ADJCriteo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0B5C662929897B007009C1 /* ADJCriteo.m */; };
+		9D0B5C692929897B007009C1 /* ADJCriteo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0B5C672929897B007009C1 /* ADJCriteo.h */; };
 		9D0C7D3F1D79B3FE009DDF4E /* ADJInitState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C7D3E1D79B3FE009DDF4E /* ADJInitState.m */; };
 		9D0E2E06210B570600133B4F /* AdjustSdkWebBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0E2E04210B570600133B4F /* AdjustSdkWebBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D0E2E6B210B575600133B4F /* ADJConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0E2E17210B575600133B4F /* ADJConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1099,6 +1101,8 @@
 		96FDD75C1C566C38009C402E /* NSURLSession+NSURLDataWithRequestMocking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+NSURLDataWithRequestMocking.h"; sourceTree = "<group>"; };
 		96FDD75D1C566C38009C402E /* NSURLSession+NSURLDataWithRequestMocking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+NSURLDataWithRequestMocking.m"; sourceTree = "<group>"; };
 		9D0167FE20FF88DE0029CFFF /* AdjustExample-iMessage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AdjustExample-iMessage.xcodeproj"; path = "examples/AdjustExample-iMessage/AdjustExample-iMessage.xcodeproj"; sourceTree = "<group>"; };
+		9D0B5C662929897B007009C1 /* ADJCriteo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADJCriteo.m; path = plugin/Criteo/ADJCriteo.m; sourceTree = SOURCE_ROOT; };
+		9D0B5C672929897B007009C1 /* ADJCriteo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADJCriteo.h; path = plugin/Criteo/ADJCriteo.h; sourceTree = SOURCE_ROOT; };
 		9D0C7D3D1D79B3FE009DDF4E /* ADJInitState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJInitState.h; sourceTree = "<group>"; };
 		9D0C7D3E1D79B3FE009DDF4E /* ADJInitState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJInitState.m; sourceTree = "<group>"; };
 		9D0E2E02210B570600133B4F /* AdjustSdkWebBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdjustSdkWebBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1686,6 +1690,7 @@
 				0AB1C9F627DD5B5100509231 /* ModuleMap */,
 				9679920F18BBAE2800394606 /* Frameworks */,
 				9679920E18BBAE2800394606 /* Products */,
+				9D0B5C8B29298A61007009C1 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1830,6 +1835,15 @@
 				9D01680620FF88DE0029CFFF /* AdjustExample-iMessage MessagesExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9D0B5C8B29298A61007009C1 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				9D0B5C662929897B007009C1 /* ADJCriteo.m */,
+				9D0B5C672929897B007009C1 /* ADJCriteo.h */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		9D0E2E03210B570600133B4F /* AdjustSdkWebBridge */ = {
@@ -2357,6 +2371,7 @@
 				9601CAE41C74B70600670879 /* ADJEventSuccess.h in Headers */,
 				9D3A2ABF2625BEB800BD6E44 /* ADJAdRevenue.h in Headers */,
 				6FAB784C2636DC0E00773869 /* ADJLinkResolution.h in Headers */,
+				9D0B5C692929897B007009C1 /* ADJCriteo.h in Headers */,
 				9D651BF625B25A64006D69D6 /* ADJThirdPartySharing.h in Headers */,
 				961D2DCC1D80706500142BF1 /* ADJCriteo.h in Headers */,
 				96BCFBD41AC99338005A65C5 /* NSData+ADJAdditions.h in Headers */,
@@ -3400,6 +3415,7 @@
 				6FAB784D2636DC0E00773869 /* ADJLinkResolution.m in Sources */,
 				96E5E39318BBB48A008E7B30 /* ADJLogger.m in Sources */,
 				96E5E39518BBB48A008E7B30 /* ADJPackageHandler.m in Sources */,
+				9D0B5C682929897B007009C1 /* ADJCriteo.m in Sources */,
 				9D651BF525B25A64006D69D6 /* ADJThirdPartySharing.m in Sources */,
 				96E5E39418BBB48A008E7B30 /* ADJPackageBuilder.m in Sources */,
 				96E5E39618BBB48A008E7B30 /* ADJRequestHandler.m in Sources */,
@@ -3587,6 +3603,7 @@
 				9DF9C9241D6F3CA5008E362F /* ADJEvent.m in Sources */,
 				961D2DD11D80707A00142BF1 /* ADJCriteo.m in Sources */,
 				9D49D15F290FEBA200042345 /* ADJSKAdNetwork.m in Sources */,
+				961D2DD11D80707A00142BF1 /* ADJCriteo.m in Sources */,
 				9DF9C91C1D6F3CA5008E362F /* ADJAttributionHandler.m in Sources */,
 				9DF9C91A1D6F3CA5008E362F /* ADJAttribution.m in Sources */,
 				9DF9C9201D6F3CA5008E362F /* ADJConfig.m in Sources */,
@@ -3631,6 +3648,7 @@
 				9DFB06731D7470C0006D48FC /* ADJPackageParams.m in Sources */,
 				961D2DD51D80709100142BF1 /* ADJCriteo.m in Sources */,
 				9D49D167290FEBC000042345 /* ADJSKAdNetwork.m in Sources */,
+				961D2DD51D80709100142BF1 /* ADJCriteo.m in Sources */,
 				9DFB066D1D7470C0006D48FC /* ADJAttributionHandler.m in Sources */,
 				9DFB066B1D7470C0006D48FC /* ADJAttribution.m in Sources */,
 				9DFB06711D7470C0006D48FC /* ADJConfig.m in Sources */,
