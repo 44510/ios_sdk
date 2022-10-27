@@ -3426,6 +3426,7 @@
 				961D2DCD1D80706500142BF1 /* ADJCriteo.m in Sources */,
 				9DF212D52909E86A0056D579 /* ADJSKAdNetwork.m in Sources */,
 				961D2DCD1D80706500142BF1 /* ADJCriteo.m in Sources */,
+				9DF212D52909E86A0056D579 /* ADJSKAdNetwork.m in Sources */,
 				969952CF1A012F5300928462 /* ADJAttributionHandler.m in Sources */,
 				969952D21A01309200928462 /* ADJAttribution.m in Sources */,
 				960A8BB91A029A8000F2BB95 /* ADJConfig.m in Sources */,
